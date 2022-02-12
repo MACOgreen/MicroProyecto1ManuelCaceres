@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: greenyellow;
+    color: var(--dark);
+}
+
+h2.app-title {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 2.6em;
+    margin-bottom: 1.5em;
+}
+
+.container {
+    max-width: 95%;
+    margin: 0 auto;
+}
+/* === Navbar === */
+.navbar .lista{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    background-color:silver; 
+    
+}
+
+li {
+    display: inline;
+    padding: 6em 2em;
+    margin: 4em;    
+}
+li a {
+    color: white;
+    text-decoration: none;   
+}
+
+li a:hover {
+    background-color: rgb(104, 93, 93);
+}
+
+
+
+
+
+
