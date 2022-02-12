@@ -95,3 +95,57 @@ li a:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
+/* === Experience === */
+
+h3.proyectos {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 2.6em;
+    margin-bottom: 1.5em;
+    text-transform: uppercase;
+    color: gold;
+}
+
+table, tr, th {
+    border: 1px solid;  
+    color: gold;
+}
+
+.filas{
+    width: 10em;
+    height: 6em;
+}
+
+.informacion{
+    width:25em ;
+}
+
+table{
+    margin-bottom: 4em;
+}
+.samancito{
+    height: 50%;
+    width: 40%;
+    position: absolute;
+    right: 6em;
+    top: 77em;
+}
+
+.articulo{
+    position: absolute;
+    right: 6em;
+    top: 105em;
+    height: 50%;
+    width: 40%;
+
+
+}
+.expense{
+    position: absolute;
+    right: 6em;
+    top: 135em;
+    height: 50%;
+    width: 40%;
+}
+
+
