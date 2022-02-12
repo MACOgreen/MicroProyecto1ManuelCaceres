@@ -2,7 +2,7 @@
 
 
 
-
+// Seccion de hero
 function RecorrerIma(n){
 
     var x;
@@ -26,7 +26,32 @@ function plusIma(n) {
 }
 
 
+// Seccion de Skills
+
+function skill(){
+
+    let habilidades='{"Atención":"Alto,"Velocidad de razonamiento":"Medio","Razonamiento":"Alto","Trabajo en equipo":"Alto"}';
+    const obje = JSON.parse(habilidades);
+
+}
+
+
+// Seccion de Contact me
+function limpiar(e){
+    const form1= document.getElementsByid("nombre");
+    const form2= document.getElementsByid("correo");
+    const form3= document.getElementsByid("mensaje");
+
+    form1=" ";
+    form2=" ";
+    form3=" ";
+
+}
+
+
+
 
 // Comienzo de la pagina
 var imaIndex=1;
 RecorrerIma(imaIndex);
+document.addEventListener("envio", limpiar);
