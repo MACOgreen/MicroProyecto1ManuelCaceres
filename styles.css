@@ -159,8 +159,16 @@ h4{
 
 .perfil{
     position: absolute;
-    right: 30em;
+    right: 32em;
     top: 174em;
 }
 
+
+.descripcion{
+    position: absolute;
+    right: 24em;
+    top: 240em;
+    width: 60%;
+    height: 40%;
+}
 
