@@ -45,6 +45,7 @@ function limpiar(e){
     form1=" ";
     form2=" ";
     form3=" ";
+    alert("Su solicitud ha sido enviada");
 
 }
 
